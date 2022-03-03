@@ -1,0 +1,217 @@
+h2 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    height: max-content;
+    background-color: rgb(196, 190, 190);
+    width: 98%;
+}
+
+
+/*Menu principal*/
+nav {
+    background: 600px 60px;
+    background-color: #535858;
+    font: aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: black 10px solid;
+    border-radius: 0 10px 10px 10px;
+    list-style: none;
+    float: left;
+}
+
+nav ul li {
+    float: left;
+    color: aqua;
+}
+
+nav ul li a:link {
+    display: block;
+    margin-right: 25px;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+    color: aqua;
+    font-size: 25px;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid #535858;
+    color: aqua;
+}
+
+
+/*Pagina "faculdade"*/
+.faculdadeBody{
+    border: solid 10px black;
+    border-radius: 10px;
+    width: 98%;
+    height: max-content;
+    background-color: rgb(196, 190, 190);
+}
+.faculdade {
+    padding-top: 50px;
+}
+
+.estacio {
+    height: 800px;
+}
+
+.paragrafo{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 20px;
+}
+
+
+/*Pagina pricipal (index.html)*/
+/*body*/
+.container {
+    float: left;
+    width: 66%;
+    text-align: center;
+    border: 10px solid black;
+    border-radius: 20px;
+}
+
+.container article {
+    padding: 10px;
+    float: left;
+    margin-left: 20px;
+}
+
+.container article a img {
+    border: ridge 30px rgb(20, 26, 38);
+    border-radius: 20px;
+}
+
+.container h1 {
+    text-decoration: underline;
+    font-size: 50px;
+    text-shadow: 0 0 0.2em rgb(80, 78, 78), 0 0 0.2em gray,0 0 0.2em gray;
+}
+
+/*Sidebar*/
+aside {
+    border: solid 10px black;
+    border-radius: 20px;
+    float: right;
+    width: 30%;
+    background-color: rgb(20, 26, 38);
+    vertical-align: top;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+aside ul {
+    color:rgb(207, 250, 207);
+    font-size: 20px;
+}
+
+aside h4 {
+    text-decoration: underline;
+}
+
+.verde {
+    background-color: rgb(207, 250, 207);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: solid 5px black;
+    border-radius: 10px;
+    text-align: left;
+    color: black;
+}
+
+.azul {
+    background-color: rgb(125, 192, 236);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: solid 5px black;
+    border-radius: 10px;
+    text-align: left;
+    color: black;
+}
+
+.amarela {
+    background-color: rgb(248, 248, 195); 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    border: solid 5px black;
+    border-radius: 10px;
+    text-align: left; 
+    color: black;
+}
+
+.vd {
+    background-color: rgb(207, 250, 207);
+    color: rgb(207, 250, 207);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: solid 5px black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.az {
+    background-color: rgb(125, 192, 236);
+    color: rgb(125, 192, 236);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: solid 5px black;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+.aml {
+    background-color: rgb(248, 248, 195); 
+    color: rgb(248, 248, 195);
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    border: solid 5px black;
+    border-radius: 10px;
+    text-align: center; 
+}
+
+.titulo {
+    border: solid 5px black;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.titulo-cabeca{
+    background-color: black;
+    color: white;
+    border: solid 5px black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+/*footer*/
+footer {
+    border: solid 10px black;
+    border-radius: 20px;
+    float: inline-end;
+    clear: both;
+    text-align: center;
+}
+
+@media (max-width: 1275px) {
+    .container {
+        width: auto;
+        float: center;
+    }
+
+    .container article {
+        padding: 0px;
+        margin-left: 0px;
+    }
+
+    aside {
+        width: auto;
+        float: center;
+    }
+
+    footer {
+        width: auto;
+        float: center;
+    }
+}
